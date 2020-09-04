@@ -1,6 +1,54 @@
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
+  background: url(../images/background.jpg) repeat;
+}
+
+#navbar {
+  background: rgb(33, 33, 33);
+  border: 0;
+  padding-top: 0;
+  border-radius: 0;
+}
+
+.navbar-brand {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: rgba(250, 235, 215, 0.797);
+}
+
+
+#titulo {
+  background: rgb(48, 48, 48);
+  color: antiquewhite;
+  padding: 15px;
+  width: 35%;
+  margin: auto;
+}
+
+#cajaTexto {
+  background: rgb(48, 48, 48);
+  margin: 25px;
+}
+
+#cajaTexto section {
+  padding: 25px;
+  padding-top: -20px;
+  color: antiquewhite;
+}
+
+#cajaTexto h2 {
+  color: antiquewhite;
+}
+
+#cajaTexto, #titulo {
+  box-shadow: 0 1px 5px 1px #000000;
+}
+
+@media (max-width: 768px) {
+
+  #titulo {
+    width: 200px;
+  }
+
 }
