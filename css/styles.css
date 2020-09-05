@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-size: 16px;
   font-family: 'Oxygen', sans-serif;
@@ -28,9 +32,23 @@ body {
   margin: auto;
 }
 
+#mainContent {
+  width: 90%;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+h3 {
+  padding-top: 15px;
+  color: antiquewhite;
+}
+
 #cajaTexto {
-  background: rgb(48, 48, 48);
-  margin: 25px;
+  background: #303030;
+  margin-left: 1%;
+  margin-bottom: 1%;
 }
 
 #cajaTexto section {
@@ -54,3 +72,23 @@ body {
   }
 
 }
+
+@media (min-width: 992px) {
+  
+  .col-md-4 {
+    width: 32%;
+  }
+
+}
+
+@media (max-width: 991px) and (min-width: 769px) {
+
+  .col-sm-6 {
+    width: 48.5%;
+  }
+
+  .col-sm-12 {
+    width: 98%;
+  }
+}
+
