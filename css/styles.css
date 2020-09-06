@@ -50,12 +50,14 @@ h3 {
   margin-left: 1%;
   margin-bottom: 1%;
   position: relative;
+
 }
 
 #cajaTexto section {
   padding: 25px;
   padding-top: -20px;
   color: antiquewhite;
+  
 }
 
 #cajaTexto h2 {
@@ -67,7 +69,7 @@ h3 {
 }
 
 #cajaTexto a {
-  padding-left: 300px;
+  margin-left: 78%;
 }
 
 @media (max-width: 768px) {
