@@ -49,6 +49,7 @@ h3 {
   background: #303030;
   margin-left: 1%;
   margin-bottom: 1%;
+  position: relative;
 }
 
 #cajaTexto section {
@@ -63,6 +64,10 @@ h3 {
 
 #cajaTexto, #titulo {
   box-shadow: 0 1px 5px 1px #000000;
+}
+
+#cajaTexto a {
+  padding-left: 300px;
 }
 
 @media (max-width: 768px) {
